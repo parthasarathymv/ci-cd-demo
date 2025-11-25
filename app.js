@@ -6,7 +6,7 @@ const host = "0.0.0.0";
 app.get('/', (req, res) => {
   res.send(`
     <h1>Welcome to CI/CD Demo</h1>
-    <p>This page is rendered from main branch 123!</p>
+    <p>This page is rendered from main branch Sneha!</p>
   `);
 });
 
