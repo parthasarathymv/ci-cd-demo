@@ -10,6 +10,13 @@ app.get('/', (req, res) => {
   `);
 });
 
+app.get('/juhomi', (req, res) => {
+  res.send(`
+    <h1>Welcome to JUHOMI</h1>
+    <p>This is a demo for CI/CD!</p>
+  `);
+});
+
 app.listen(port, host, () => {
   console.log(`Server running on http://${host}:${port}`);
 });
